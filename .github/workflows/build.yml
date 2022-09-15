@@ -23,5 +23,5 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t app .
-        docker tag app ajaybharaj/dashboard
-        docker push ajaybharaj/dashboard
+        docker tag app yogeswaran-v/bootcamp
+        docker push yogeswaran-v/bootcamp
